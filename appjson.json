@@ -1,0 +1,9 @@
+{
+    "version":2,
+    "builds":[
+        {"scr":"app.py" , "use": "@version/python"}
+    ],
+    "routes":[
+        {"scr": "/.(.*)", "dest":"app.py"}
+    ]
+}
